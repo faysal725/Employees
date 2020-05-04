@@ -1,0 +1,38 @@
+
+
+.people{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.people img{
+    height: 200px;
+    weight: 180px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.userName{
+    color: blue;
+    font-weight: 400;
+}
+
+.main-button{
+    background-color: grey;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    height: 30px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    background-color: black;
+    font-style: italic;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+}
